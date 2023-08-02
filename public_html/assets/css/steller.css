@@ -11348,9 +11348,17 @@ pre {
   background: var(--dark);
 }
 
+.navbar .navbar-brand div {
+  height: 50px;
+}
+
 .navbar .navbar-brand img {
-  width: 300px;
-  max-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+#font {
+  height: 30px;
 }
 
 .navbar .navbar-nav {
@@ -11430,6 +11438,7 @@ pre {
 
 .page-footer p {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .page-footer .socials {
