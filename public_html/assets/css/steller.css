@@ -11358,7 +11358,19 @@ pre {
 }
 
 #font {
-  height: 30px;
+  height: 60%;
+}
+
+@media (max-width:430px) {
+  #font {
+    display:none;
+  }
+  .navbar-brand {
+    margin-left: 30px;
+  }
+  .navbar-brand img {
+    margin: 0 -10px;
+  }
 }
 
 .navbar .navbar-nav {
